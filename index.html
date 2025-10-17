@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechnoSUS - Sistema de Saúde Digital</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">⚕️</span>
+                    <h1>TechnoSUS</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#features">Funcionalidades</a></li>
+                        <li><a href="#dashboard">Painel</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </nav>
+                <div class="user-actions">
+                    <button class="btn btn-secondary" id="loginBtn">Entrar</button>
+                    <button class="btn btn-primary" id="registerBtn">Cadastrar</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>TechnoSUS - Saúde Digital para Todos</h2>
+            <p>Uma plataforma completa para gerenciar sua saúde, agendar consultas, monitorar filas e receber informações personalizadas através de inteligência artificial.</p>
+            <button class="btn btn-primary" id="startBtn">Começar Agora</button>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Funcionalidades Principais</h2>
+                <p>O TechnoSUS oferece uma gama completa de serviços para facilitar o acesso à saúde pública</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">👤</div>
+                    <h3>Cadastro de Usuários</h3>
+                    <p>Cadastro seguro com validação de identidade através do cartão do SUS, garantindo a segurança dos seus dados.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📅</div>
+                    <h3>Agendamento de Consultas</h3>
+                    <p>Interface intuitiva para buscar, agendar e gerenciar consultas e exames na rede SUS de forma simples e rápida.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Monitoramento de Filas</h3>
+                    <p>Acompanhe em tempo real o status das filas para procedimentos e consultas, com transparência total.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💊</div>
+                    <h3>Informações Personalizadas</h3>
+                    <p>Histórico de saúde completo, medicamentos, alergias e vacinas, tudo organizado em um só lugar.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧬</div>
+                    <h3>Alertas Genéticos</h3>
+                    <p>Com seu consentimento, alertamos sobre predisposições a doenças hereditárias para prevenção.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>Assistente de IA</h3>
+                    <p>Nosso agente de IA tira dúvidas, envia alertas de saúde e auxilia no diagnóstico prévio de sintomas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Preview -->
+    <section class="dashboard-preview" id="dashboard">
+        <div class="container">
+            <div class="section-title">
+                <h2>Painel do Usuário</h2>
+                <p>Uma experiência personalizada para gerenciar sua saúde e a de sua família</p>
+            </div>
+            <div class="dashboard-container">
+                <div class="dashboard-content">
+                    <h3>Controle completo da sua saúde</h3>
+                    <ul>
+                        <li>Calendário de vacinas com alertas para reforços</li>
+                        <li>Lista de remédios com horários e dosagens</li>
+                        <li>Geolocalização de farmácias públicas com disponibilidade</li>
+                        <li>Lembretes inteligentes sobre medicamentos</li>
+                        <li>Checklists mensais de saúde</li>
+                        <li>Modo Família para gerenciar dependentes</li>
+                        <li>Receita digital no aplicativo</li>
+                        <li>Indicadores pessoais de saúde com gráficos</li>
+                    </ul>
+                    <button class="btn btn-primary" style="margin-top: 20px;" id="accessDashboard">Acessar Painel</button>
+                </div>
+                <div class="dashboard-image">
+                    <div class="dashboard-mockup">
+                        <div class="mockup-header">
+                            <span>TechnoSUS - Meu Painel</span>
+                        </div>
+                        <div class="mockup-content">
+                            <div class="mockup-card">
+                                <h4>Próximas Consultas</h4>
+                                <p>Cardiologista - 15/10/2023</p>
+                            </div>
+                            <div class="mockup-card">
+                                <h4>Medicamentos do Dia</h4>
+                                <p>Losartana - 08:00</p>
+                            </div>
+                            <div class="mockup-card">
+                                <h4>Indicadores de Saúde</h4>
+                                <div class="health-indicators">
+                                    <span class="indicator good">Pressão: 120/80</span>
+                                    <span class="indicator warning">Glicemia: 110</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>TechnoSUS</h3>
+                    <p>Sistema de Saúde Digital integrado ao SUS para melhorar o acesso e a experiência dos usuários.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#features">Funcionalidades</a></li>
+                        <li><a href="#dashboard">Painel</a></li>
+                        <li><a href="#about">Sobre Nós</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Suporte</h3>
+                    <ul>
+                        <li><a href="#">Central de Ajuda</a></li>
+                        <li><a href="#">Perguntas Frequentes</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li>Email: contato@technosus.gov.br</li>
+                        <li>Telefone: 136</li>
+                        <li>Endereço: Esplanada dos Ministérios, Brasília - DF</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 TechnoSUS. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Entrar no TechnoSUS</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="loginSus">Número do Cartão SUS</label>
+                    <input type="text" id="loginSus" class="form-control" placeholder="Digite seu número do SUS" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Senha</label>
+                    <input type="password" id="loginPassword" class="form-control" placeholder="Digite sua senha" required>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Entrar</button>
+            </form>
+            <p style="text-align: center; margin-top: 15px;">Não tem conta? <a href="#" id="goToRegister">Cadastre-se</a></p>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div class="modal" id="registerModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Cadastrar no TechnoSUS</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            <form id="registerForm">
+                <div class="form-group">
+                    <label for="registerName">Nome Completo</label>
+                    <input type="text" id="registerName" class="form-control" placeholder="Digite seu nome completo" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerSus">Número do Cartão SUS</label>
+                    <input type="text" id="registerSus" class="form-control" placeholder="Digite seu número do SUS" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerEmail">E-mail</label>
+                    <input type="email" id="registerEmail" class="form-control" placeholder="Digite seu e-mail" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerPassword">Senha</label>
+                    <input type="password" id="registerPassword" class="form-control" placeholder="Crie uma senha" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerConfirmPassword">Confirmar Senha</label>
+                    <input type="password" id="registerConfirmPassword" class="form-control" placeholder="Confirme sua senha" required>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Cadastrar</button>
+            </form>
+            <p style="text-align: center; margin-top: 15px;">Já tem conta? <a href="#" id="goToLogin">Faça login</a></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
